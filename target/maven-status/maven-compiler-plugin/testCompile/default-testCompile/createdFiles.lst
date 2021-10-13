@@ -1,0 +1,5 @@
+MyRunner\MyRunner.class
+StepDefinition\LoginStepDef.class
+StepDefinition\RegisterStepDef.class
+StepDefinition\SearchStepDef.class
+StepDefinition\BuyStepDef.class

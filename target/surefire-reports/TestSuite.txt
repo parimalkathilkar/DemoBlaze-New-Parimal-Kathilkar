@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 214.985 s <<< FAILURE! - in TestSuite
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](4)  Time elapsed: 8.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](5)  Time elapsed: 9.011 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](6)  Time elapsed: 7.975 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](7)  Time elapsed: 10.236 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](8)  Time elapsed: 7.864 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+
+MyRunner.MyRunner.runScenario["Test Buy Function with invalid data", "Optional[DemoBlaze Buy Function]"](9)  Time elapsed: 8.763 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+

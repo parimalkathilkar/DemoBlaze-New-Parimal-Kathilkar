@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="212.528">
+    <testcase classname="DemoBlaze Buy Function" name="Test Buy PopUp Window" time="24.282">
+        <system-out><![CDATA[Given b-User is into cart...................................................passed
+When b-User clicks PlaceOrder...............................................passed
+Then b-User Gets Popup For Details..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test online Payment Function" time="11.205">
+        <system-out><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters Rishab India Mumbai 123456789 April 22...................passed
+And b-User Clicks Purchase..................................................passed
+Then b-Validate successful purchase.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test online Payment Function 2" time="9.512">
+        <system-out><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters Alex USA New York 123456789 January 24...................passed
+And b-User Clicks Purchase..................................................passed
+Then b-Validate successful purchase.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test Buy Function with invalid data" time="7.953">
+        <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters 1234 India Mumbai 123456789 April 22.....................passed
+And b-User Clicks Purchase..................................................passed
+Then b-validate unsuccessful purchase.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinition.BuyStepDef.bvalidate_unsuccessful_purchase(BuyStepDef.java:79)
+	at ✽.b-validate unsuccessful purchase(file:///C:/Users/om%20sai/Downloads/DemoBlaze/DemoBlaze-New/src/test/java/Feature/Buy.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test Buy Function with invalid data 2" time="9.018">
+        <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters Rishab Mumbai Mumbai 123456789 April 22..................passed
+And b-User Clicks Purchase..................................................passed
+Then b-validate unsuccessful purchase.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinition.BuyStepDef.bvalidate_unsuccessful_purchase(BuyStepDef.java:79)
+	at ✽.b-validate unsuccessful purchase(file:///C:/Users/om%20sai/Downloads/DemoBlaze/DemoBlaze-New/src/test/java/Feature/Buy.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test Buy Function with invalid data 3" time="7.965">
+        <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters Rishab India Maharashtra 123456789 April 22..............passed
+And b-User Clicks Purchase..................................................passed
+Then b-validate unsuccessful purchase.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinition.BuyStepDef.bvalidate_unsuccessful_purchase(BuyStepDef.java:79)
+	at ✽.b-validate unsuccessful purchase(file:///C:/Users/om%20sai/Downloads/DemoBlaze/DemoBlaze-New/src/test/java/Feature/Buy.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test Buy Function with invalid data 4" time="10.22">
+        <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters Rishab India Mumbai asdf April 22........................passed
+And b-User Clicks Purchase..................................................passed
+Then b-validate unsuccessful purchase.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinition.BuyStepDef.bvalidate_unsuccessful_purchase(BuyStepDef.java:79)
+	at ✽.b-validate unsuccessful purchase(file:///C:/Users/om%20sai/Downloads/DemoBlaze/DemoBlaze-New/src/test/java/Feature/Buy.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test Buy Function with invalid data 5" time="7.843">
+        <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters Rishab India Mumbai 123456789 Monday 22..................passed
+And b-User Clicks Purchase..................................................passed
+Then b-validate unsuccessful purchase.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinition.BuyStepDef.bvalidate_unsuccessful_purchase(BuyStepDef.java:79)
+	at ✽.b-validate unsuccessful purchase(file:///C:/Users/om%20sai/Downloads/DemoBlaze/DemoBlaze-New/src/test/java/Feature/Buy.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="DemoBlaze Buy Function" name="Test Buy Function with invalid data 6" time="8.737">
+        <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[Given b-User is on cart and Clicks PlaceOrder...............................passed
+When b-User Enters Rishab India Mumbai 123456789 April -122.................passed
+And b-User Clicks Purchase..................................................passed
+Then b-validate unsuccessful purchase.......................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertFalse(Assert.java:67)
+	at org.testng.Assert.assertFalse(Assert.java:77)
+	at StepDefinition.BuyStepDef.bvalidate_unsuccessful_purchase(BuyStepDef.java:79)
+	at ✽.b-validate unsuccessful purchase(file:///C:/Users/om%20sai/Downloads/DemoBlaze/DemoBlaze-New/src/test/java/Feature/Buy.feature:25)
+]]></failure>
+    </testcase>
+    <testcase classname="DemoBlaze Login Functionality" name="To validate the successfully Navigation to Demo_blaze Login page" time="8.531">
+        <system-out><![CDATA[Given l-User enters DemoBlaze url...........................................passed
+Then l-User should be able to navigate to url successfully..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Login Functionality" name="Test Login Functionality" time="12.451">
+        <system-out><![CDATA[Given l-User is on Login Page...............................................passed
+When l-User enters test and test............................................passed
+And l-User clicks on Login Button...........................................passed
+Then l-User should be able to Login successfully test.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Login Functionality" name="Test Login Functionality 2" time="11.025">
+        <system-out><![CDATA[Given l-User is on Login Page...............................................passed
+When l-User enters admin and admin..........................................passed
+And l-User clicks on Login Button...........................................passed
+Then l-User should be able to Login successfully admin......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Login Functionality" name="Test Login Functionality with invalid data." time="10.971">
+        <system-out><![CDATA[Given l-User is on Login Page...............................................passed
+When l-User enters test and test12..........................................passed
+And l-User clicks on Login Button...........................................passed
+Then l-User should be not able to Login successfully........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Login Functionality" name="Test Login Functionality with invalid data. 2" time="8.347">
+        <system-out><![CDATA[Given l-User is on Login Page...............................................passed
+When l-User enters admin and admin12........................................passed
+And l-User clicks on Login Button...........................................passed
+Then l-User should be not able to Login successfully........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Registration Functionality" name="To validate the sucessful Navigation to Demo_blaze Signup page" time="5.953">
+        <system-out><![CDATA[Given r-User enters DemoBlaze url...........................................passed
+Then r-User should be able to navigate to url successfully..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Registration Functionality" name="Test Registration Functionality" time="9.165">
+        <system-out><![CDATA[Given r-User is on Registration Page........................................passed
+When r-User enters test and test123.........................................passed
+And r-User clicks on Signup Button..........................................passed
+Then r-User should be able to Register successfully.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Registration Functionality" name="Test Registration Functionality 2" time="8.076">
+        <system-out><![CDATA[Given r-User is on Registration Page........................................passed
+When r-User enters abc and abc123...........................................passed
+And r-User clicks on Signup Button..........................................passed
+Then r-User should be able to Register successfully.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Search Functionality" name="To validate that user can filter products by PHONE category" time="9.686">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User clicks on Phone category..........................................passed
+Then User should be able to successfully filter products by PHONE category..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Search Functionality" name="To validate that user can filter products by LAPTOP category" time="6.95">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User clicks on LAPTOP category.........................................passed
+Then User should be able to successfully filter products by LAPTOP category..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Search Functionality" name="To validate that user can filter products by MONITORS category" time="8.177">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User clicks on MONITOR category........................................passed
+Then User should be able to successfully filter products by MONITORS category..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="DemoBlaze Search Functionality" name="To validate that add to cart button is functional." time="15.605">
+        <system-out><![CDATA[Given User is on homepage...................................................passed
+When User clicks on a product...............................................passed
+And User clicks on add to cart button.......................................passed
+And User clicks on cart button..............................................passed
+Then User should be able to successfully see the product in their cart......passed
+]]></system-out>
+    </testcase>
+</testsuite>
